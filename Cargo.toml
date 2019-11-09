@@ -1,0 +1,10 @@
+[package]
+name = "try-async-await"
+version = "0.1.0"
+authors = ["zeljic <zeljic@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+futures03 = { package = "futures", version = "0.3", default-features = false, features = ["compat"] }
+futures = "0.1"
+actix-web = "1.0.8"
